@@ -1,0 +1,48 @@
+/* NavBar Styles */
+
+.navBar {
+  display:flex;
+  flex-direction:row;
+  background:rgba(0, 0, 0, 0.3);
+  width:100%;
+  height:50px;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #00f59c;
+  position:fixed;
+}
+
+.siteName {
+  width:30%;
+  font-size:3em;
+  margin-left:15px;
+  font-variant:small-caps;
+  font-family:'Lobster';
+  color:#FFFFFF;
+}
+
+.nav {
+  width:70%;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  margin-right:15px;
+}
+
+.navButton {
+  color:#FFFFFF;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:bold;
+  font-variant:small-caps;
+  font-family:'Montserrat';
+  font-size:1.2em;
+}
+
+.navButton:hover {
+  color:#00f59c;
+}
+
+.menuIcon {
+  display:none;
+}

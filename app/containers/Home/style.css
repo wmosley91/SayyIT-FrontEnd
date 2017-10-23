@@ -1,0 +1,36 @@
+/* Home Styles */
+
+* {
+  padding:0;
+  margin:0;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  background: #00a86b;
+  background: linear-gradient(135deg, #00a86b 0%,#0091a8 100%);
+}
+
+.mainContainer {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.tagLine {
+  color:#FFFFFF;
+  font-family:'Montserrat';
+  font-size:6em;
+  font-variant:small-caps;
+  border-bottom:1px solid #00f59c;
+}
+
+.signUpButtons {
+  display:flex;
+  flex-direction:column;
+  width:20%;
+}
